@@ -1,0 +1,580 @@
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 1021px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+@media (max-width:1021px){
+
+	/* Sharecontainer */
+	#content-mobile #screen_three #end_container #share .sharecontainer{
+	 width:100% !important;
+	}
+	
+	/* Button */
+	#end_container button{
+	 visibility:hidden;
+	}
+	
+   }
+   
+   @media (max-width:446px){
+   
+	/* Sharecontainer */
+	#content-mobile #screen_three #end_container #share .sharecontainer{
+	 width:100% !important;
+	}
+	
+   }
+   
+   @media (max-width:415px){
+   
+	/* Sharecontainer */
+	#content-mobile #screen_three #end_container #share .sharecontainer{
+	 width:100% !important;
+	}
+	
+   }
+   
+   @media (max-width:413px){
+   
+	/* Sharecontainer */
+	#share .sharecontainer{
+	 /* left:-16px; */
+	}
+	
+	/* Astridlink */
+	#astridlink{
+	 display:inline-block;
+	 transform:translatex(0px) translatey(0px) !important;
+	}
+	
+   }
+
+body{
+	margin:0;
+	font-family: consolas;
+	font-weight: 100;
+	overflow: hidden;
+
+}
+
+/* Followaio */
+#followAIO{
+	display:inline-block;
+	padding-top:53px;
+	font-size: 20px;
+   }
+   
+   @media (max-width:768px){
+
+	/* Span Tag */
+	#end_container > span{
+	 font-size:15px !important;
+	}
+	
+	/* Button */
+	#end_container button{
+	 position:relative;
+	 top:-21px;
+	}
+	
+   }
+   
+   @media (max-width:446px){
+   
+	/* Button */
+	#end_container button{
+	 position:relative;
+	 top:-42px;
+	}
+	
+	/* Button */
+	#content-mobile #screen_three #end_container button{
+	 transform:scale(0.89) !important;
+	}
+	
+   }   
+canvas{
+	float:left;
+	margin-right: 20px;
+}
+.astridlogo{
+	animation: astridlogo;	
+}
+
+.astridlogo {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	transition: -webkit-transform .25s ease-out;
+	transition: transform .25s ease-out;
+	transition: transform .25s ease-out, -webkit-transform .25s ease-out
+}
+
+.astridlogo:focus,
+.astridlogo:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05)
+}
+
+.astridlogo:active {
+	-webkit-transform: scale(.9);
+	transform: scale(.9)
+}
+
+.astridlogo-large {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	transition: -webkit-transform .25s ease-in-out;
+	transition: transform .25s ease-in-out;
+	transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out
+}
+
+.astridlogo-large:focus,
+.astridlogo-large:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2)
+}
+
+.astridlogo-large:active {
+	-webkit-transform: scale(.95);
+	transform: scale(.95)
+}
+/* Span Tag */
+#end_container span span{
+ /* color:#000000; */
+ /* font-weight:600; */
+}
+
+@media (max-width:1700px){
+
+ /* End container */
+ #end_container{
+  margin-top:100px;
+ }
+ 
+}
+
+@media (max-width:768px){
+
+ /* End container */
+ #end_container{
+  margin-top:50px;
+ }
+ 
+ /* Span Tag */
+ #end_container > span{
+  font-size:27px !important;
+ }
+ 
+ /* Your message */
+ #your_message{
+  font-size:25px !important;
+ }
+ 
+}
+
+
+@media (max-width:415px){
+
+ /* End container */
+ #end_container{
+  margin-top:41px;
+ }
+ 
+ /* Span Tag */
+ #end_container > span{
+  font-size:19px !important;
+ }
+ 
+ /* astrid */
+ #astrid{
+  font-size:24px;
+  width:180px;
+ }
+ 
+}
+#share .sharecontainer{
+ padding-top:62px;
+}
+
+/* astrid */
+#astrid{
+ transform: translatey(-46px);
+}
+#astridlink{
+ color:#f5507c !important;
+ /* font-weight:600; */
+}
+
+#sagetoshilink{
+ color:#008e00 !important;
+ /* font-weight:600; */
+}
+
+
+
+@media (max-width:768px){
+
+ /* astrid */
+ #astrid{
+  width:300px;
+  height:300px;
+ }
+ 
+ /* End container */
+ #end_container{
+  width:80%;
+ }
+ 
+ /* Span Tag */
+ #end_container > span{
+  font-size:22px !important;
+ }
+ 
+}
+
+@media (max-width:415px){
+
+ /* Span Tag */
+ #end_container span span{
+  font-size:22px !important;
+ }
+ 
+}
+#whole_container{
+	position: absolute;
+	width: 100%; height: 100%;
+	top:0px;
+	-webkit-transition: top 1s ease-in-out;
+	-moz-transition: top 1s ease-in-out;
+	-ms-transition: top 1s ease-in-out;
+	transition: top 1s ease-in-out;
+}
+
+/* Aio */
+#aio{
+ color:#ff659b !important;
+}
+
+/* Sagetoshi */
+#sagetoshi{
+ color:#00b247 !important;
+}
+
+
+#screen_one, #screen_two, #screen_three{
+	width:100%; height:100%;
+	position: relative;
+}
+#screen_one{
+	background-color: #bbb;
+	background-image: url(aio_intro2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#screen_two{
+	background:#333;
+}
+#screen_three{
+	background-repeat: no-repeat;
+	background-position: 50% 50%
+}
+#canvas_container{
+	width:940px;
+	height:380px;
+	position: absolute;
+	margin:auto;
+	top:0; left:0; right:0; bottom:0;
+	background-image: url(aio_levels_bg.png);
+	background-repeat: no-repeat;
+}
+
+#valentines_text, #rewind_text, #replay_text{
+	display: none;
+	position: absolute;
+	bottom:0;
+	width:100%;
+	height:50px;
+	color:#666;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 0px;
+
+	-webkit-transition: letter-spacing 5s ease-out;
+	-moz-transition: letter-spacing 5s ease-out;
+	-ms-transition: letter-spacing 5s ease-out;
+	transition: letter-spacing 5s ease-out;
+
+}
+#rewind_text, #replay_text{
+	color: #ccc;
+	letter-spacing: 2px;
+	/*text-align: left;*/
+}
+#end_container{
+	width: 80%;
+	height: 550px;
+	margin: auto;
+	position: absolute;
+	top:-200px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 25px;
+
+	text-align: center;
+}
+#astrid {
+  width: 300px;
+  height: 300px;
+  line-height: 72px;
+  display: block;
+  position: relative;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #444;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 10;
+  color: #333;
+  background-image:url(../assets/AIO_opti.gif);
+  background-size: contain;
+
+
+
+	
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+
+}
+#astrid:hover{
+cursor: pointer;
+}
+#share{
+	width:330px;
+	margin:5px auto;
+	height:50px;
+	margin-bottom: 30px;
+}
+#share > div{
+	float: left;
+	width: 50px; height: 50px;
+	margin-right: 5px;
+
+	opacity: 0.25;
+	position: relative;
+	top:0;
+	cursor: pointer;
+
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+
+}
+#share .whatsapp i:hover{
+ opacity: 1;
+ top:-3px;
+}
+
+/* Font Icon (hover) */
+#share .twitter i:hover{
+opacity: 1;
+top:-3px;
+}
+
+/* Font Icon (hover) */
+#share .telegram i:hover{
+opacity: 1;
+top:-3px;
+ 
+}
+
+
+
+
+
+#share_facebook{
+	background: url(../icons/facebook.png);
+}
+#share_twitter{
+	background: url(../icons/twitter.png);
+}
+#share_plus{
+	background: url(../icons/plus.png);
+}
+#share_tumblr{
+	background: url(../icons/tumblr.png);
+}
+#share_reddit{
+	background: url(../icons/reddit.png);
+}
+#share_stumbleupon{
+	background: url(../icons/stumbleupon.png);
+	margin-right: 0px;
+}
+#bottom{
+	font-size: 17px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: #999;
+}
+#bottom a{
+	color: #aaa;
+}
+#bottom a:hover{
+	color: #ccc;
+}
+
+#loading{
+	position: fixed;
+	top:0; left:0;
+
+	width:100%;
+	height: 100%;
+
+	background: #333;
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align:center;
+
+	z-index: 1;
+}
+#loading > div{
+	position: absolute;
+	margin: auto;
+	top:0; left:0; right:0; bottom:0;
+	width:100%; height:50px;
+}
+
+.sharecontainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sharecontainer */
+#whole_container #screen_three #end_container #share .sharecontainer{
+ width:100% !important;
+}
+
+/* Button */
+#share .twitter{
+ padding-left:15px;
+ padding-right:15px;
+ font-size:45px;
+}
+
+/* Button */
+#share .whatsapp{
+ font-size:45px;
+}
+
+/* Button */
+#share .telegram{
+ font-size:45px;
+}
+
+@media (max-width:768px){
+
+/* Sharecontainer */
+#content-mobile #screen_three #end_container #share .sharecontainer{
+ width:100% !important;
+}
+
+/* Share */
+#share{
+ width:100%;
+}
+
+}
+
+@media (max-width:415px){
+
+/* Sharecontainer */
+#content-mobile #screen_three #end_container #share .sharecontainer{
+ width:100% !important;
+}
+
+}
+
+@media (max-width:413px){
+
+/* Sharecontainer */
+#content-mobile #screen_three #end_container #share .sharecontainer{
+ width:100% !important;
+}
+
+}
+@media (max-width:1021px){
+
+	/* Astrid */
+	#astrid{
+	 width:94px;
+	 height:94px;
+	 background-repeat:no-repeat;
+	 transform:scale(2.63);
+	}
+	
+	/* End container */
+	#end_container{
+	 transform: translatey(164px);
+	}
+	
+	/* Link */
+	#end_container span a{
+	 position:relative;
+	 top:-103px;
+	}
+	
+   }
+
+   #viewonlaptop{
+	font-size: 17px;
+}
+
+@media (max-width:768px){
+
+	/* Viewonlaptop */
+	#viewonlaptop{
+	 font-size:17px !important;
+	}
+	
+   }
+   
+   @media (max-width:446px){
+   
+	/* Viewonlaptop */
+	#viewonlaptop{
+	 font-size:17px !important;
+	}
+	
+   }
+   
+   @media (max-width:413px){
+   
+	/* Viewonlaptop */
+	#viewonlaptop{
+	 font-size:17px !important;
+	}
+	
+   }
