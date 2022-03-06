@@ -1,3 +1,14 @@
+@font-face {
+	font-family: Consolas;
+	src: url(./fonts/Consolas.ttf);
+	font-display: swap;
+  
+  }
+  
+#thanks{
+	color: #ccc
+}
+
 #content-desktop {display: block;}
 #content-mobile {display: none;}
 
@@ -7,33 +18,6 @@
 #content-mobile {display: block;}
 
 }
-
-@media (max-width:768px){
-
-	/* Viewonlaptop */
-	#viewonlaptop{
-	 font-size:17px !important;
-	}
-	
-   }
-   
-   @media (max-width:446px){
-   
-	/* Viewonlaptop */
-	#viewonlaptop{
-	 font-size:17px !important;
-	}
-	
-   }
-   
-   @media (max-width:413px){
-   
-	/* Viewonlaptop */
-	#viewonlaptop{
-	 font-size:17px !important;
-	}
-	
-   }
 
 @media (max-width:1021px){
 
@@ -84,7 +68,7 @@
 
 body{
 	margin:0;
-	font-family: consolas;
+	font-family: Consolas;
 	font-weight: 100;
 	overflow: hidden;
 
@@ -93,8 +77,8 @@ body{
 /* Followaio */
 #followAIO{
 	display:inline-block;
-	padding-top:53px;
 	font-size: 20px;
+	padding-top: 30px;
    }
    
    @media (max-width:768px){
@@ -107,7 +91,6 @@ body{
 	/* Button */
 	#end_container button{
 	 position:relative;
-	 top:-21px;
 	}
 	
    }
@@ -232,7 +215,6 @@ canvas{
  
 }
 #share .sharecontainer{
- padding-top:62px;
 }
 
 /* astrid */
@@ -240,12 +222,12 @@ canvas{
  transform: translatey(-46px);
 }
 #astridlink{
- color:#999 !important;
+ /* color:#f5507c !important; */
  /* font-weight:600; */
 }
 
 #sagetoshilink{
- color:#999 !important;
+ /* color:#008e00 !important; */
  /* font-weight:600; */
 }
 
@@ -266,7 +248,7 @@ canvas{
  
  /* Span Tag */
  #end_container > span{
-  font-size:17px !important;
+  font-size:13px !important;
  }
  
 }
@@ -291,12 +273,12 @@ canvas{
 
 /* Aio */
 #aio{
- color:#ff659b !important;
+ /* color:#ff659b !important; */
 }
 
 /* Sagetoshi */
 #sagetoshi{
- color:#00b247 !important;
+ /* color:#00b247 !important; */
 }
 
 
@@ -354,7 +336,7 @@ canvas{
 	height: 550px;
 	margin: auto;
 	position: absolute;
-	top:-200px;
+	top:-100px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -363,9 +345,11 @@ canvas{
 	text-align: center;
 }
 #astrid {
+  align-self: center;
   width: 300px;
   height: 300px;
   line-height: 72px;
+  top: 20px;
   display: block;
   position: relative;
   -moz-border-radius: 50%;
@@ -374,16 +358,11 @@ canvas{
   border: 2px solid #444;
   text-align: center;
   display: inline-block;
-  vertical-align: middle;
   position: relative;
   z-index: 10;
   color: #333;
   background-image:url(../assets/AIO_opti.gif);
   background-size: contain;
-
-
-
-	
   -webkit-transition: all 0.1s ease-out;
   -moz-transition: all 0.1s ease-out;
   -ms-transition: all 0.1s ease-out;
@@ -457,7 +436,7 @@ top:-3px;
 	margin-right: 0px;
 }
 #bottom{
-	font-size: 17px;
+	font-size: 12px;
 	position: absolute;
 	bottom: 10px;
 	right: 10px;
@@ -561,15 +540,10 @@ top:-3px;
 	 background-repeat:no-repeat;
 	 transform:scale(2.63);
 	}
-	 /* Bottom */
-	#bottom{
-		font-size:11px;
-		color:#999999;
-	   }
 	
 	/* End container */
 	#end_container{
-	 transform: translatey(250px);
+	 transform: translatey(164px);
 	}
 	
 	/* Link */
@@ -581,14 +555,15 @@ top:-3px;
    }
 
    #viewonlaptop{
-	font-size: 17px;
+	font-size: 13px;
+	color: #ccc;
 }
 
 @media (max-width:768px){
 
 	/* Viewonlaptop */
 	#viewonlaptop{
-	 font-size:17px !important;
+	 font-size:13px !important;
 	}
 	
    }
@@ -597,7 +572,7 @@ top:-3px;
    
 	/* Viewonlaptop */
 	#viewonlaptop{
-	 font-size:17px !important;
+	 font-size:10px !important;
 	}
 	
    }
@@ -606,7 +581,11 @@ top:-3px;
    
 	/* Viewonlaptop */
 	#viewonlaptop{
-	 font-size:17px !important;
+	 font-size:10px !important;
 	}
 	
+   }
+
+   html.fa-events-icons-ready body div#content-desktop div#whole_container div#screen_three div#end_container div#followAIO a:visited{
+	color: #ccc
    }
